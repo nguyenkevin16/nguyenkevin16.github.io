@@ -80,6 +80,43 @@
     </ol>
   </section>
 
+  <section>
+    <form action="/reviews" method="post">
+      <label for="name">Name</label>
+      <input id="name" type="text">
+
+      <br><br>
+
+      <label for="rating">Rating</label>
+      <input id="rating" type="radio" value="1" checked>1
+      <input id="rating" type="radio" value="2">2
+      <input id="rating" type="radio" value="3">3
+      <input id="rating" type="radio" value="4">4
+      <input id="rating" type="radio" value="5">5
+
+      <br><br>
+
+      <label for="cooking_expertise">Cooking Expertise</label>
+      <select id="cooking_expertise">
+        <option disabled> -- Please Select -- </option>
+        <option>Sometimes Cook</option>
+        <option>Cook Everyday</option>
+        <option>Cooking is a Hobby</option>
+        <option>Professional Chef</option>
+      </select>
+
+      <br><br>
+
+      <label> Review <br>
+        <textarea> </textarea>
+      </label>
+
+      <br><br>
+
+    </form>
+  </section>
+
+
   <footer>
     <p>This recipe and its contents were pulled from:
       <a href="https://goo.gl/X5eaW6">betty crocker</a>
