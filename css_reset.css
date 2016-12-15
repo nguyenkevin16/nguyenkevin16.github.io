@@ -17,6 +17,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  background-color: white;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -24,10 +25,54 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  line-height: 1.5;
+  line-height: 2;
+  font-family: "Helvetica";
+  font-weight: 100;
+  margin: 2cm 4cm 2cm 4cm;
+}
+aside {
+  margin-top: 1cm;
+}
+figure img {
+  width: 550px;
+  height: auto;
+}
+figure a {
+  text-decoration: none;
+}
+header {
+  text-align: center;
+}
+header img {
+  height: 100px;
+}
+h1 {
+  font-size: 38px;
+  text-shadow: 1.25px 1.25px #d6d6d6;
+}
+h2 {
+  font-size: 32px;
+}
+.header-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.header-links li {
+  display: inline;
+  padding: 15px;
+}
+.ingredient-list {
+  list-style: square inside;
 }
 ol, ul {
-  list-style: none;
+  list-style: circle outside;
+  margin-left: 1cm;
+}
+ol, ul a {
+  text-decoration: none;
+  color: inherit;
 }
 blockquote, q {
   quotes: none;
