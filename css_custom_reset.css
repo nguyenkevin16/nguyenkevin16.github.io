@@ -1,0 +1,60 @@
+body, header, nav, ul, li, aside, h1, a, figure,
+figcaption, p, ol, section, form, label, footer {
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  font: inherit;
+}
+
+body {
+  line-height: 2;
+  font-family: "Helvetica";
+  font-weight: 100;
+
+  width: 800px;
+  margin: 80px auto;
+}
+
+h1 {
+  font-size: 38px;
+  text-shadow: 1.25px 1.25px #d6d6d6;
+}
+
+nav {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+ol, ul {
+  list-style: circle outside;
+  margin-left: 1cm;
+}
+
+ol a, ul a, figcaption a {
+  text-decoration: none;
+  color: grey;
+}
+
+header {
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header img {
+  height: 100px;
+}
+
+input, option, header ul a {
+  cursor: pointer;
+  outline: none;
+}
+
+input:last-child {
+  background-color: grey;
+
+}
