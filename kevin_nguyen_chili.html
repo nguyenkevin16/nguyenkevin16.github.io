@@ -33,7 +33,7 @@
 
   </header>
 
-  <aside>
+  <aside class="sidebar">
     <h1>Ingredients</h1>
     <a name="ingredients"/>
 
@@ -51,7 +51,7 @@
     </ul>
   </aside>
 
-  <section>
+  <section class="main">
   <h1>Chili</h1>
 
     <figure>
@@ -83,14 +83,15 @@
     </ol>
   </section>
 
-  <section id="reviews">
+  <section class="reviews">
+    <a name="reviews"/>
+
     <form action="/reviews" method="post" id="review-form">
       <label for="name">Name</label>
       <input id="name" type="text">
 
       <br><br>
 
-      <label for="rating">Rating</label>
       <input id="rating" type="radio" value="1" checked>1
       <input id="rating" type="radio" value="2">2
       <input id="rating" type="radio" value="3">3
@@ -99,7 +100,6 @@
 
       <br><br>
 
-      <label for="cooking_expertise">Cooking Expertise</label>
       <select id="cooking_expertise">
         <option disabled> -- Please Select -- </option>
         <option>Sometimes Cook</option>
