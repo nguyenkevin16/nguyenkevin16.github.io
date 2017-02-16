@@ -3032,6 +3032,17 @@
 		opacity: 0;
 	}
 
+	.banner.onload-background-fade-in .background img {
+		-moz-transition: opacity 0.75s ease-in-out;
+		-webkit-transition: opacity 0.75s ease-in-out;
+		-ms-transition: opacity 0.75s ease-in-out;
+		transition: opacity 0.75s ease-in-out;
+	}
+
+	body.is-loading .banner.onload-background-fade-in .background img {
+		opacity: 0;
+	}
+
 	.banner.onscroll-content-fade-up .content {
 		-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
 		-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
@@ -3635,6 +3646,7 @@
 		.banner.style3 .content {
 			width: 31.5rem;
 			max-width: 100%;
+			z-index: 1;
 		}
 
 		.banner.style3 .image {
@@ -3650,6 +3662,7 @@
 			height: 21rem;
 			border-radius: 100%;
 			margin: 0 3.5rem 2rem 0;
+			z-index: 1;
 		}
 
 			.banner.style3 .image img {
@@ -3665,6 +3678,42 @@
 				width: 100%;
 				height: 100%;
 				border-radius: 100%;
+			}
+
+		.banner.style3 .background {
+			-moz-flex-grow: 0;
+			-webkit-flex-grow: 0;
+			-ms-flex-grow: 0;
+			flex-grow: 0;
+			-moz-flex-shrink: 0;
+			-webkit-flex-shrink: 0;
+			-ms-flex-shrink: 0;
+			flex-shrink: 0;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			border-radius: 0;
+			opacity: 0.6;
+		}
+
+			.banner.style3 .background img {
+				-moz-object-fit: cover;
+				-webkit-object-fit: cover;
+				-ms-object-fit: cover;
+				object-fit: cover;
+				-moz-object-position: center;
+				-webkit-object-position: center;
+				-ms-object-position: center;
+				object-position: center;
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border-radius: 0;
 			}
 
 		@media screen and (max-width: 1680px) {
@@ -5299,6 +5348,7 @@
 			top: 0;
 			left: 0;
 			border-radius: 0;
+			opacity: 0.95;
 		}
 
 			.spotlight.style4 .image img {
