@@ -8464,3 +8464,13 @@
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+.background-encore {
+	background-image: url('../../images/encore/discover.png');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+section {
+	border-bottom: 1px solid black;
+}
