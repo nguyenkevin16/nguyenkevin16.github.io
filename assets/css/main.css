@@ -8471,6 +8471,12 @@
 	background-size: cover;
 }
 
+.background-rugby {
+	background-image: url('../../images/ucsc.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 section {
 	border-bottom: 1px solid black;
 }
