@@ -8477,6 +8477,12 @@
 	background-size: cover;
 }
 
+.background-code {
+	background-image: url('../../images/code.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 section {
 	border-bottom: 1px solid black;
 }
