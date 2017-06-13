@@ -1097,23 +1097,6 @@
 			height: 100%;
 			z-index: 1;
 		}
-	
-	#me ul {
-		position: absolute;
-		left: 0;
-		top: 64.5%;
-		font-size: 1.5em;
-		letter-spacing: 0.1em;
-		margin-top: 0;
-	}
-
-		#me ul li {
-			display: inline-block;
-		}
-		
-			#me ul li a {
-				color: #aaa;
-			}
 
 /* Footer */
 
@@ -1422,17 +1405,118 @@
 					#me header > h1 {
 						position: absolute;
 						left: 0;
-						bottom: 52.5%;
+						bottom: 58.5%;
 						margin: 0;
 					}
 
 					#me header > p {
 						position: absolute;
 						left: 0;
-						top: 52.5%;
+						top: 45.5%;
 						font-size: 1.5em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
+					}
+				
+				#me ul {
+					position: absolute;
+					left: 0;
+					top: 56.5%;
+					font-size: 1.5em;
+					letter-spacing: 0.1em;
+					margin-top: 0;
+				}
+
+					#me ul li {
+						display: inline-block;
+					}
+					
+						#me ul li a {
+							color: #aaa;
+						}
+				
+		/* about */
+
+			#about {
+				padding: 0;
+				height: 20em;
+			}
+
+				#about .pic {
+					display: block;
+					position: absolute;
+					top: 0;
+					height: 100%;
+					text-decoration: none;
+				}
+
+					#about .pic img {
+						position: relative;
+						display: block;
+						height: 100%;
+					}
+
+					#about .pic .arrow {
+						display: block;
+						position: absolute;
+						right: 0;
+						top: 50%;
+						margin-top: -1.375em;
+						width: 2.75em;
+						height: 2.75em;
+						background: #000;
+						background: rgba(0, 0, 0, 0.75);
+						color: #ffffff;
+						text-align: center;
+						line-height: 2.75em;
+						font-size: 1.5em;
+						z-index: 1;
+						-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+						-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+						-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+					}
+
+						#about .pic .arrow:before {
+							position: relative;
+							padding-right: 0;
+							top: 0.125em;
+						}
+
+						#about .pic .arrow span {
+							display: block;
+							text-indent: -9999px;
+						}
+
+					#about .pic:hover .arrow {
+						width: 3em;
+						padding-right: 0.25em;
+					}
+
+				#about header {
+					position: absolute;
+					left: 0;
+					top: 0;
+					width: 100%;
+					height: 100%;
+					margin-left: 2.5em;
+				}
+
+					#about header > h1 {
+						position: absolute;
+						left: 33%;
+						top: 13%;
+						margin: 0;
+					}
+
+					#about header > p {
+						position: absolute;
+						left: 33%;
+						top: 28.5%;
+						font-size: 1.0em;
+						letter-spacing: -0.015em;
+						margin-top: 0;
+						width: 55%;
 					}
 
 		/* Footer */
