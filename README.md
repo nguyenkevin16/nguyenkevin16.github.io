@@ -1,3 +1,3 @@
-A [personal portfolio](nguyenkevin.live) utilizing Story by HTML5 UP.
+A [personal portfolio](nguyenkevin.live).
 
-![Home_Page](/assets/images/home_page.png)
+![Home_Page](/docs/readme_portfolio.png)
