@@ -1518,6 +1518,36 @@
 						margin-top: 0;
 						width: 55%;
 					}
+		
+		/* Skills */
+
+			#skills {
+				display: flex;
+				flex-direction: column;
+			}
+
+				#skills div {
+					display: flex;
+					flex-wrap: wrap;
+				}
+
+					#skills	div a {
+						display: flex;
+						flex-direction: column;	
+						margin: 0.5em;
+						text-decoration: none;
+						text-align: center;
+					}
+						
+						#skills div p {
+							color: #aaa;
+							margin-bottom: 0em;
+						}
+
+						#skills div a img {
+							height: 5em;
+							width: 5em;
+						}
 
 		/* Footer */
 
