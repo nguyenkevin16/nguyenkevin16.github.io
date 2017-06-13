@@ -1097,6 +1097,23 @@
 			height: 100%;
 			z-index: 1;
 		}
+	
+	#me ul {
+		position: absolute;
+		left: 0;
+		top: 64.5%;
+		font-size: 1.5em;
+		letter-spacing: 0.1em;
+		margin-top: 0;
+	}
+
+		#me ul li {
+			display: inline-block;
+		}
+		
+			#me ul li a {
+				color: #aaa;
+			}
 
 /* Footer */
 
