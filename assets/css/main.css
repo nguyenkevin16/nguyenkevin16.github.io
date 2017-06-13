@@ -1544,7 +1544,6 @@
 					#skills	div a {
 						display: flex;
 						flex-direction: column;	
-						margin: 0.5em;
 						text-decoration: none;
 						text-align: center;
 					}
@@ -1558,6 +1557,20 @@
 							height: 5em;
 							width: 5em;
 						}
+		
+		/* Work */
+
+		#work {
+
+		}
+
+			#work header h2 {
+				text-align: center;
+			}
+
+			#work header p {
+				text-align: center;
+			}
 
 		/* Footer */
 
