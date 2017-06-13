@@ -1524,11 +1524,21 @@
 			#skills {
 				display: flex;
 				flex-direction: column;
+				align-items: center;
 			}
+
+				#skills header h2 {
+					text-align: center;
+				}
+
+				#skills header p {
+					text-align: center;
+				}
 
 				#skills div {
 					display: flex;
 					flex-wrap: wrap;
+					width: 80%;
 				}
 
 					#skills	div a {
