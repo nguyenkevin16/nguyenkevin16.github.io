@@ -1434,6 +1434,10 @@
 						#me ul li a {
 							color: #aaa;
 						}
+
+						#me ul li a:hover {
+							color: black;
+						}
 				
 		/* about */
 
@@ -1523,41 +1527,73 @@
 
 			#skills {
 				display: flex;
-				flex-direction: column;
-				align-items: center;
+				justify-content: center;
+				flex-wrap: wrap;
+				width: 60%;
+				margin: 1em 0 4em 0;
 			}
 
-				#skills header h2 {
-					text-align: center;
-				}
-
-				#skills header p {
-					text-align: center;
-				}
-
-				#skills div {
+				#skills a {
 					display: flex;
-					flex-wrap: wrap;
-					width: 80%;
+					flex-direction: column;	
+					text-decoration: none;
+					text-align: center;
+				}
+					
+					#skills p {
+						color: #aaa;
+						margin-bottom: 0em;
+						font-size: 14px;
+					}
+
+					#skills a img {
+						height: 2.5em;
+						width: 2.5em;
+					}
+		
+		/* Work */
+
+		#work header h2 {
+			text-align: center;
+		}
+
+		/* Project */
+
+		.project {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 2.5em 0;
+		}
+
+			.project header {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				margin: 0 0 1em 0;
+			}
+
+				.project header h3 {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					color: #aaa;
 				}
 
-					#skills	div a {
-						display: flex;
-						flex-direction: column;	
-						margin: 0.5em;
-						text-decoration: none;
-						text-align: center;
-					}
-						
-						#skills div p {
-							color: #aaa;
-							margin-bottom: 0em;
-						}
+				.project header p {
+					color: #aaa;
+					text-align: center;
+					margin: 0.25em 0 1em 0;
+				}
 
-						#skills div a img {
-							height: 5em;
-							width: 5em;
-						}
+				.project header h3 a {
+					color: #aaa;
+				}
+
+				.project header h3 a:hover {
+					color: black;
+				}
 
 		/* Footer */
 
