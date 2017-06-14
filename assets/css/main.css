@@ -1434,6 +1434,10 @@
 						#me ul li a {
 							color: #aaa;
 						}
+
+						#me ul li a:hover {
+							color: black;
+						}
 				
 		/* about */
 
@@ -1525,7 +1529,7 @@
 				display: flex;
 				justify-content: center;
 				flex-wrap: wrap;
-				width: 100%;
+				width: 60%;
 				margin: 1em 0 4em 0;
 			}
 
@@ -1585,6 +1589,10 @@
 
 				.project header h3 a {
 					color: #aaa;
+				}
+
+				.project header h3 a:hover {
+					color: black;
 				}
 
 		/* Footer */
